@@ -6,12 +6,13 @@ The dataset is organized into a single csv file (evons.csv) and two folders (ima
 
 The evons.csv contains the following columns:
 - **article_fn** -  Name of the file which contains the full article text. While the dataset contains articles from fake and real news sources, only filenames of fake news articles are present in this table as articles from real news sources where obtained from the "All the news 2.0" dataset (
-https://components.one/datasets/).  
-- **fb_comments** - number of Facebook comments
-- **fb_likes** - number of Facebook likes
-- **fb_shares** - number of Facebook shares
-- **fb_engagements** - number of Facebook engagements. This is the sum of the previous 3 columns (number of shares, likes, and comments). It is used as a proxy of how much attention the post generated.
-- **media_source** - news media source. 
+https://components.one/datasets/).
+Article files are provided in the **articles** folder where articles are organized into subfolders depending on the news media source. 
+- **fb_comments** - Number of Facebook comments.
+- **fb_likes** - Number of Facebook likes.
+- **fb_shares** - Number of Facebook shares.
+- **fb_engagements** - Number of Facebook engagements. This is the sum of the previous 3 columns (number of shares, likes, and comments). It is used as a proxy of how much attention the post generated.
+- **media_source** - news media source. We use the following abbreviations:
   - mwn - MadWorldNews
   - psn - Puppet String News
   - usas - USA Supreme
@@ -23,17 +24,17 @@ https://components.one/datasets/).
   - reuters -  Reuters
   - Guardian - The Guardian
   - wp - Washington Post 
-- **is_fake**
-- **date**
-- **title**
-- **description**
-- **is_valid_image**
-- **image_fn**
-- **dominantColorForeground**
+- **is_fake** - Does the media source contain fake or real news stories. "1" for fake and "0" for real. 
+- **date** - News article date. 
+- **title** - Article title.
+- **description** - Article description with which the article was shared on Facebook.
+- **is_valid_image** - Does the article contain a valid thumbnail image "1" for valid and "0" for invalid.
+- **image_fn** - Thumbnail image filename. Thumbnail image files are provided in the **images** folder. Images are organized into sufolders depending on the news media source. 
+- **dominantColorForeground** - 
 - **dominantColorBackground**
 - **dominantColors**
 - **accentColor**
 - **isBwImg**
 - **image_tags**
-- **num_face**
-- **face_tags**
+- **num_face** - Number of detected faces in the thumbnail image. 
+- **face_tags** - Face tags extracted 
