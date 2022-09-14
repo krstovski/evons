@@ -2,7 +2,7 @@
 This repository that contains information on the Evons dataset described in the following paper:  
 "Evons: A Dataset for Fake and Real News Virality Analysis and Prediction", Kriste Krstovski, Angela Soomin Ryu, and Bruce Kogut, COLING 2022.  
 
-The dataset is organized into a single csv file (evons.csv) and two folders (images and articles). 
+The dataset is organized into a single csv file (evons.csv) and two folders (images and articles).  
 
 The evons.csv contains the following columns:
 - **article_fn** -  Name of the file which contains the full article text. While the dataset contains articles from fake and real news sources, only filenames of fake news articles are present in this table as articles from real news sources where obtained from the "All the news 2.0" dataset (
@@ -30,11 +30,11 @@ Article files are provided in the **articles** folder where articles are organiz
 - **description** - Article description with which the article was shared on Facebook.
 - **is_valid_image** - Does the article contain a valid thumbnail image "1" for valid and "0" for invalid.
 - **image_fn** - Thumbnail image filename. Thumbnail image files are provided in the **images** folder. Images are organized into sufolders depending on the news media source. 
-- **dominantColorForeground** - 
-- **dominantColorBackground**
-- **dominantColors**
-- **accentColor**
-- **isBwImg**
-- **image_tags**
+- **dominantColorForeground** - Dominant foreground color attribute of the thumbnail image. 
+- **dominantColorBackground** - Dominant background color attribute of the thumbnail image. 
+- **dominantColors** - Set of dominant colors across the thumbnail image. 
+- **accentColor** - Accent color, which is the most vibrant color in the thumbnail image.
+- **isBwImg** - Is the thumbnail in black and white (bw) format. 
+- **image_tags** - Set of extracted image attributes. 
 - **num_face** - Number of detected faces in the thumbnail image. 
-- **face_tags** - Face tags extracted 
+- **face_tags** - Set of extracted facial attributes. 
