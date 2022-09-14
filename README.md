@@ -5,7 +5,7 @@ This repository that contains information on the Evons dataset described in the 
 The dataset is organized into a single csv file (evons.csv) and two folders (articles and images).  
 
 ## evons.csv ##
-The evons.csv file is accesible through the following link:
+The evons.csv file is accesible through the following link:  
 https://www.dropbox.com/s/wlg1ugxz6vp8psv/evons.csv?dl=0
 
 The file contains the following columns:
