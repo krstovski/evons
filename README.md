@@ -42,3 +42,11 @@ Article files are provided in the **articles** folder where articles are organiz
 - **image_tags** - Set of extracted image attributes. 
 - **num_face** - Number of detected faces in the thumbnail image. 
 - **face_tags** - Set of extracted facial attributes. 
+
+## Article Body Text ##
+Article body text originating from the real news sources was obtained from the "all the news 2.0" dataset which is available through the following link:
+https://components.one/datasets/all-the-news-articles-dataset. 
+Article body text originating from the fake news sources is available for download through the following link:  
+https://www.dropbox.com/s/wlg1ugxz6vp8psv/evons.csv?dl=0. 
+
+
