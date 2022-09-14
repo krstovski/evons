@@ -2,7 +2,7 @@
 This repository that contains information on the Evons dataset described in the following paper:  
 "Evons: A Dataset for Fake and Real News Virality Analysis and Prediction", Kriste Krstovski, Angela Soomin Ryu, and Bruce Kogut, COLING 2022.  
 
-The dataset is organized into a single csv file (evons.csv) and two folders (images and articles).  
+The dataset is organized into a single csv file (evons.csv) and two folders (articles and images).  
 
 ## evons.csv ##
 The evons.csv file is accesible through the following link:
