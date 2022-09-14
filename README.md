@@ -34,7 +34,7 @@ Article files are provided in the **articles** folder where articles are organiz
 - **title** - Article title.
 - **description** - Article description with which the article was shared on Facebook.
 - **is_valid_image** - Does the article contain a valid thumbnail image "1" for valid and "0" for invalid.
-- **image_fn** - Thumbnail image filename. Thumbnail image files are provided in the **images** folder. Images are organized into sufolders depending on the news media source. This folder is available for download as an images.tar.gz file (please see the link below under the "Images" heading for a download link). 
+- **image_fn** - Thumbnail image filename. Thumbnail image files are provided in the **images** folder. Images are organized into sufolders depending on the news media source. This folder is available for download as an images.tar.gz file (please see the link below under the "Thumbnail Images" heading for a download link). 
 - **dominantColorForeground** - Dominant foreground color attribute of the thumbnail image. 
 - **dominantColorBackground** - Dominant background color attribute of the thumbnail image. 
 - **dominantColors** - Set of dominant colors across the thumbnail image. 
@@ -52,4 +52,4 @@ https://www.dropbox.com/s/wlg1ugxz6vp8psv/evons.csv?dl=0.
 
 ## Thumbnail Images ##
 Thumbnail images are organized into subfolders depending on the news media source. They are available for download through the following link:
-
+https://www.dropbox.com/s/y4tc7gpuztdakgw/images.tar.gz?dl=0
