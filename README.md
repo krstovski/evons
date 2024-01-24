@@ -52,4 +52,4 @@ https://www.dropbox.com/scl/fi/ywe7qjunwfoewuhsovdwu/articles.tar.gz?rlkey=szj6v
 
 ## Thumbnail Images ##
 Thumbnail images are organized into subfolders depending on the news media source. They are available for download through the following link:
-https://www.dropbox.com/s/y4tc7gpuztdakgw/images.tar.gz?dl=0
+https://www.dropbox.com/scl/fi/4ssdoi78civwhn6fxweld/images.tar.gz?rlkey=0n8pd8j5s4x327foztyami4en&dl=0
