@@ -48,7 +48,7 @@ Article files are provided in the **articles** folder where articles are organiz
 Article body text originating from the real news sources was obtained from the "all the news 2.0" dataset which is available through the following link:
 https://components.one/datasets/all-the-news-articles-dataset. 
 Article body text originating from the fake news sources is available for download through the following link:  
-https://www.dropbox.com/s/wlg1ugxz6vp8psv/evons.csv?dl=0. 
+https://www.dropbox.com/scl/fi/ywe7qjunwfoewuhsovdwu/articles.tar.gz?rlkey=szj6v3g4m3bdrj264ftzs0xxh&dl=0
 
 ## Thumbnail Images ##
 Thumbnail images are organized into subfolders depending on the news media source. They are available for download through the following link:
