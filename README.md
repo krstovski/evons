@@ -6,7 +6,7 @@ The dataset is organized into a single csv file (evons.csv) and two folders (art
 
 ## evons.csv ##
 The evons.csv file is accesible through the following link:  
-https://www.dropbox.com/s/wlg1ugxz6vp8psv/evons.csv?dl=0
+https://www.dropbox.com/scl/fi/k05g7rr5wiqccay7xope6/evons.csv?rlkey=9riao2g3uz3iaktijfgaheplf&dl=0
 
 The file contains the following columns:
 - **article_fn** -  Name of the file which contains the full article text. While the dataset contains articles from fake and real news sources, only filenames of fake news articles are present in this table as articles from real news sources where obtained from the "All the news 2.0" dataset (
